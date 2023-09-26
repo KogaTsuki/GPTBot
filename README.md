@@ -6,5 +6,5 @@ In order to use the bot, make a .env file with the discord token for your bot an
 ENV Variable Names:
 - `CLIENT_ID`
 - `BOT_TOKEN`
-Running Instructions:
+Running Instructions:  
 `node script.js`
