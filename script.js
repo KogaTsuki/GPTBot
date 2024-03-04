@@ -38,7 +38,7 @@ const openai = new OpenAIApi(new Configuration({
     apiKey: process.env.API_KEY
 }))
 
-let chatResponse = async prompt =>{
+const chatResponse = async prompt =>{
     const botresponse = await openai.createChatCompletion({
         model: "gpt-3.5-turbo",
         messages:[{role:"user", content: prompt}],
